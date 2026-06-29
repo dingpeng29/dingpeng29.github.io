@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="ToolBox Pro - 免费在线开发工具集。PDF处理、图片压缩、二维码解码、JSON格式化等18+工具。纯浏览器本地运行，数据不上传。">
+<meta name="keywords" content="在线工具,开发工具,PDF工具,图片压缩,二维码解码,JSON格式化,免费工具">
+<title>ToolBox Pro - 免费在线开发工具集</title>
+<style>
+:root{--bg:#f8fafc;--card:#fff;--text:#1e293b;--text2:#64748b;--border:#e2e8f0;--primary:#3b82f6;--radius:12px;}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;min-height:100vh;}
+.header{background:var(--card);border-bottom:1px solid var(--border);padding:0 24px;height:60px;display:flex;align-items:center;}
+.header .logo{font-size:20px;font-weight:700;color:var(--text);}
+.container{max-width:900px;margin:0 auto;padding:24px 20px;}
+.hero{text-align:center;padding:40px 20px 32px;}
+.hero h1{font-size:32px;font-weight:800;}
+.hero p{color:var(--text2);font-size:15px;margin-top:8px;}
+.hero .count{display:inline-block;background:#dbeafe;color:#1e40af;padding:4px 14px;border-radius:16px;font-size:13px;font-weight:700;margin-bottom:8px;}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px;margin-bottom:24px;}
+.card{background:var(--card);border-radius:var(--radius);padding:20px;box-shadow:0 1px 3px rgba(0,0,0,0.06);border:1px solid var(--border);text-decoration:none;color:var(--text);transition:all .2s;display:block;}
+.card:hover{border-color:var(--primary);box-shadow:0 4px 12px rgba(59,130,246,0.15);transform:translateY(-1px);}
+.card .icon{font-size:28px;margin-bottom:8px;}
+.card .name{font-size:15px;font-weight:700;}
+.card .desc{font-size:12px;color:var(--text2);margin-top:4px;}
+.card .tag{display:inline-block;padding:1px 8px;border-radius:10px;font-size:10px;font-weight:600;margin-top:8px;}
+.tag-hot{background:#fef2f2;color:#ef4444;}
+.tag-new{background:#dbeafe;color:#2563eb;}
+.donate-box{background:linear-gradient(135deg,#fef3c7,#fde68a);border-radius:var(--radius);padding:20px 24px;text-align:center;border:1px solid #fcd34d;margin-bottom:16px;}
+.donate-box h3{color:#92400e;font-size:16px;margin-bottom:4px;}
+.donate-box p{color:#a16207;font-size:13px;margin-bottom:8px;}
+.footer{text-align:center;padding:32px 20px;color:var(--text2);font-size:12px;border-top:1px solid var(--border);margin-top:32px;}.footer a{color:var(--primary);text-decoration:none;}
+</style>
+</head>
+<body>
+<div class="header"><span class="logo">🧰 ToolBox Pro</span></div>
+<div class="container">
+<div class="hero">
+<div class="count">18 个免费工具</div>
+<h1>免费在线开发工具集</h1>
+<p>所有工具在浏览器本地运行，数据不会上传服务器。完全免费，开源。</p>
+</div>
+
+<div class="donate-box">
+<h3>❤️ 支持我们</h3>
+<p>如果这些工具帮到了你，欢迎赞赏或按月赞助支持我们持续维护。</p>
+<div style="display:flex;align-items:center;justify-content:center;gap:24px;flex-wrap:wrap;margin-top:12px;">
+<div style="text-align:center;background:#fff;padding:16px 20px;border-radius:12px;">
+<img src="toolbox-pro/donate-qr.jpg" alt="微信赞赏码" style="width:160px;height:160px;border-radius:8px;">
+<span style="font-size:12px;color:#92400e;font-weight:700;display:block;margin-top:6px;">微信扫码赞赏</span>
+</div>
+<div style="text-align:center;background:#fff;padding:16px 20px;border-radius:12px;">
+<span style="font-size:36px;">💝</span>
+<span style="font-size:12px;color:#92400e;font-weight:700;display:block;">爱发电按月赞助</span>
+<a href="https://afdian.com/a/toolboxpro" target="_blank" style="display:inline-block;margin-top:8px;background:#f59e0b;color:#fff;padding:8px 20px;border-radius:20px;text-decoration:none;font-size:13px;font-weight:700;">去支持 →</a>
+</div>
+</div>
+</div>
+
+<h2 style="font-size:18px;margin-bottom:12px;">🔥 重点工具</h2>
+<div class="grid">
+<a class="card" href="/pdf-toolkit/">
+<div class="icon">📄</div>
+<div class="name">PDF Toolkit</div>
+<div class="desc">PDF合并、拆分、页面提取。文件在浏览器本地处理，隐私安全。</div>
+<span class="tag tag-hot">热门</span>
+</a>
+<a class="card" href="/image-compressor/">
+<div class="icon">🖼️</div>
+<div class="name">图片压缩工具</div>
+<div class="desc">JPG/PNG/WebP压缩，实时预览效果。调节质量和尺寸。</div>
+<span class="tag tag-hot">热门</span>
+</a>
+<a class="card" href="/qr-decoder/">
+<div class="icon">📱</div>
+<div class="name">二维码解码器</div>
+<div class="desc">上传二维码图片即可解析内容。支持URL/文本/WiFi等格式。</div>
+<span class="tag tag-new">新增</span>
+</a>
+<a class="card" href="/yaml-converter/">
+<div class="icon">🔄</div>
+<div class="name">YAML ↔ JSON</div>
+<div class="desc">双向实时转换。Docker Compose、K8s配置、CI/CD必备。</div>
+</a>
+</div>
+
+<h2 style="font-size:18px;margin-bottom:12px;">📦 开发工具</h2>
+<div class="grid">
+<a class="card" href="/toolbox-pro/">
+<div class="icon">🧰</div>
+<div class="name">ToolBox Pro (21合1)</div>
+<div class="desc">JSON格式化、Base64、正则测试、JWT解码、Hash计算等。</div>
+</a>
+<a class="card" href="/json-schema/">
+<div class="icon">📋</div>
+<div class="name">JSON Schema 生成器</div>
+<div class="desc">从JSON自动生成Schema定义。</div>
+</a>
+<a class="card" href="/json-to-typescript/">
+<div class="icon">📐</div>
+<div class="name">JSON → TypeScript</div>
+<div class="desc">JSON转TypeScript接口定义。</div>
+</a>
+<a class="card" href="/sql-formatter/">
+<div class="icon">🗄️</div>
+<div class="name">SQL Formatter</div>
+<div class="desc">SQL语句格式化，支持多种方言。</div>
+</a>
+<a class="card" href="/url-parser/">
+<div class="icon">🔗</div>
+<div class="name">URL 解析器</div>
+<div class="desc">解析URL结构，查询参数编解码。</div>
+</a>
+<a class="card" href="/cron-generator/">
+<div class="icon">⏰</div>
+<div class="name">Cron 表达式生成器</div>
+<div class="desc">可视化生成cron表达式。</div>
+</a>
+<a class="card" href="/date-calculator/">
+<div class="icon">📅</div>
+<div class="name">日期计算器</div>
+<div class="desc">日期差值、加减天数、工作日计算。</div>
+</a>
+<a class="card" href="/http-status/">
+<div class="icon">🌐</div>
+<div class="name">HTTP 状态码参考</div>
+<div class="desc">HTTP状态码速查表。</div>
+</a>
+<a class="card" href="/gitignore-generator/">
+<div class="icon">📝</div>
+<div class="name">.gitignore 生成器</div>
+<div class="desc">按语言和框架生成.gitignore文件。</div>
+</a>
+<a class="card" href="/color-palette/">
+<div class="icon">🎨</div>
+<div class="name">调色板生成器</div>
+<div class="desc">生成配色方案，支持多种色彩模式。</div>
+</a>
+<a class="card" href="/markdown-table/">
+<div class="icon">📊</div>
+<div class="name">Markdown 表格生成器</div>
+<div class="desc">可视化编辑Markdown表格。</div>
+</a>
+<a class="card" href="/meta-tags-generator/">
+<div class="icon">🏷️</div>
+<div class="name">Meta Tags 生成器</div>
+<div class="desc">生成SEO和社交分享meta标签。</div>
+</a>
+<a class="card" href="/readme-generator/">
+<div class="icon">📖</div>
+<div class="name">README 生成器</div>
+<div class="desc">快速生成项目README文档。</div>
+</a>
+</div>
+</div>
+<footer class="footer">
+<p>ToolBox Pro — 所有工具开源 · <a href="https://github.com/dingpeng29">GitHub</a> · <a href="https://afdian.com/a/toolboxpro">爱发电</a></p>
+<p style="margin-top:4px;">全部在浏览器本地处理，保障数据隐私</p>
+</footer>
+</body>
+</html>
